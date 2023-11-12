@@ -1,34 +1,34 @@
 ﻿
 
 string patToFile = "../../../input.txt";
-List<int> calorySums = new List<int>();
-int elfSumOfCalories = 0;
+List<int> sumsOfAllElfsCalories = new List<int>();
+int sumOfElfCalories = 0;
 
 foreach (string line in File.ReadAllLines(patToFile))
 {
     if (Int32.TryParse(line, out int lineValue))
     {
-        elfSumOfCalories += lineValue;
+        sumOfElfCalories += lineValue;
     }
     else
     {
-        calorySums.Add(elfSumOfCalories);
-        elfSumOfCalories = 0;
+        sumsOfAllElfsCalories.Add(sumOfElfCalories);
+        sumOfElfCalories = 0;
     }
 }
 
-calorySums.Sort();
-calorySums.Reverse();
+sumsOfAllElfsCalories.Sort();
+sumsOfAllElfsCalories.Reverse();
 
-int sumOfTopThree = 0;
+int sumOfTopThreeElfs = 0;
 
 for (int i = 0; i < 3; i++)
 {
-    sumOfTopThree += calorySums[i];
+    sumOfTopThreeElfs += sumsOfAllElfsCalories[i];
 }
 
 
 Console.WriteLine($@"
-The elf with highest amount of calories is carrying: {calorySums.Max()} calories
-And the 3 elves with the highest amount of calories is carrying together: {sumOfTopThree} calories.
+The elf with highest amount of calories is carrying: {sumsOfAllElfsCalories.Max()} calories
+And the 3 elves with the highest amount of calories is carrying together: {sumOfTopThreeElfs} calories.
 ");
