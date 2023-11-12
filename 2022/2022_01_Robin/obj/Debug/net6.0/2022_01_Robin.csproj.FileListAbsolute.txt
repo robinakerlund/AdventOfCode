@@ -1,0 +1,14 @@
+D:\AdventOfCode\2022\2022_01_Robin\bin\Debug\net6.0\2022_01_Robin.exe
+D:\AdventOfCode\2022\2022_01_Robin\bin\Debug\net6.0\2022_01_Robin.deps.json
+D:\AdventOfCode\2022\2022_01_Robin\bin\Debug\net6.0\2022_01_Robin.runtimeconfig.json
+D:\AdventOfCode\2022\2022_01_Robin\bin\Debug\net6.0\2022_01_Robin.dll
+D:\AdventOfCode\2022\2022_01_Robin\bin\Debug\net6.0\2022_01_Robin.pdb
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\2022_01_Robin.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\2022_01_Robin.AssemblyInfoInputs.cache
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\2022_01_Robin.AssemblyInfo.cs
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\2022_01_Robin.csproj.CoreCompileInputs.cache
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\2022_01_Robin.dll
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\refint\2022_01_Robin.dll
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\2022_01_Robin.pdb
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\2022_01_Robin.genruntimeconfig.cache
+D:\AdventOfCode\2022\2022_01_Robin\obj\Debug\net6.0\ref\2022_01_Robin.dll
